@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.env
+env/
+venv/
+# Django
+local_settings.py
+db.sqlite3
+# Node
+node_modules/
+# Flutter
+/.dart_tool/
+/.idea/
+/.vscode/
+/build/
+/ios/Pods/
+.pub/
+# OS
+.DS_Store

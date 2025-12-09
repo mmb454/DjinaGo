@@ -1,0 +1,41 @@
+openapi: 3.0.0
+info:
+  title: DjinaGo API
+  version: 0.1.0
+paths:
+  /api/auth/token/:
+    post:
+      summary: Obtain token (JWT)
+  /api/users/register/:
+    post:
+      summary: Register rider or driver
+  /api/drivers/nearby/:
+    get:
+      summary: List nearby available drivers (accepts lat/lng & radius)
+  /api/rides/request/:
+    post:
+      summary: Rider creates a ride request
+  /api/rides/{ride_id}/accept/:
+    post:
+      summary: Driver accepts a ride request
+  /api/rides/{ride_id}/start/:
+    post:
+      summary: Start ride (driver)
+  /api/rides/{ride_id}/complete/:
+    post:
+      summary: Complete ride (driver)
+  /api/payments/charge/:
+    post:
+      summary: Charge rider (Stripe/local)
+  /api/ratings/:
+    post:
+      summary: Create rating for a completed ride
+components:
+  schemas:
+    RideRequest:
+      type: object
+      properties:
+        origin_lat: { type: number }
+        origin_lng: { type: number }
+        dest_lat: { type: number }
+        dest_lng: { type: number }

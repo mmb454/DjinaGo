@@ -1,0 +1,10 @@
+Django>=4.2
+djangorestframework
+djangorestframework-simplejwt
+channels
+channels-redis
+psycopg2-binary
+django-cors-headers
+gunicorn
+python-dotenv
+stripe

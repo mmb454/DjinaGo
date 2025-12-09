@@ -1,0 +1,25 @@
+name: djinago_mobile
+description: The DjinaGo Flutter mobile app (rider and driver)
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.13.5
+  provider: ^6.0.5
+  flutter_secure_storage: ^8.0.0
+  geolocator: ^9.0.2
+  google_maps_flutter: ^2.2.0
+  flutter_local_notifications: ^11.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
