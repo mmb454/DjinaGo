@@ -1,6 +1,6 @@
 # DjinaGo — Motorcycle Rideshare
 
-DjinaGo is a motorcycle rideshare service focused on Chad (mobile and driver apps with a Django REST backend and Flutter mobile client).
+DjinaGo is a motorcycle rideshare service (mobile and driver apps with a Django REST backend and Flutter mobile client).
 
 Key goals (MVP)
 - Rider: request a nearby motorcycle, track driver arrival, pay in-app (cash / mobile / card), rate driver.
